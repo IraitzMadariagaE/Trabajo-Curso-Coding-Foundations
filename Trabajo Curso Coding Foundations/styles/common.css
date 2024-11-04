@@ -1,0 +1,22 @@
+/*Incluye estilos de texto principales*/
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 395;
+    opacity: 0.6;
+    line-height: 1.6em;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.1em;
+}

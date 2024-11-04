@@ -1,0 +1,21 @@
+.footer {
+    height: 40px;
+    background-color: rgba(54, 56, 63);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .codepen-text {
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > .codepen-text span {
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+

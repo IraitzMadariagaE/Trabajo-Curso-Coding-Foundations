@@ -1,0 +1,39 @@
+/*Ajustes generales*/
+.center-column {
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+/*Línea de texto "Explore" */
+.center-column > .center-column-wrapper > .explore-line {
+    color: rgba(243, 225, 107, 1);
+}
+
+/*Links (si se necesitasen para futuros proyectos)*/
+.center-column > .center-column-wrapper {
+    margin-left: 15px;
+}
+
+.center-column > .center-column-wrapper > .links-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-column > .center-column-wrapper > .links-wrapper a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/*Link especial Spark*/
+.center-column > .center-column-wrapper > .links-wrapper > .spark-line a {
+    margin-left: 25px;
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+.center-column > .center-column-wrapper > .links-wrapper > .spark-line i {
+    opacity: 0.5;
+}
